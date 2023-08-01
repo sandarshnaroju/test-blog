@@ -56,7 +56,20 @@ h4 {
 .post > .actions {
   float: right;
 }
-
+.btn-default,
+.btn-default:visited {
+  color: #c25100;
+  background: none;
+  border-color: #c25100;
+  text-decoration-color: white;
+}
+.glyphicon{
+  border-color:none;
+}
+.glyphicon-ok {
+  color: green;
+ 
+}
 .btn-secondary,
 .btn-secondary:visited {
   color: #c25100;
@@ -67,4 +80,9 @@ h4 {
 .btn-secondary:hover {
   color: #ffffff;
   background-color: #c25100;
+}
+
+
+.comment {
+  margin: 20px 0px 20px 20px;
 }
